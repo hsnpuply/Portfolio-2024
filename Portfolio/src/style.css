@@ -12,7 +12,8 @@
 
 @layer components {
   .navbarList {
-    @apply -translate-y-60 duration-700;
+    @apply duration-700;
+    transform: translate3d(0px, -300px, 0px) scale(1, 0.5);
   }
 
   .navbarList ul li {
@@ -35,5 +36,14 @@
 
   .showMenu span {
     @apply w-8   bg-white h-2 duration-600;
+  }
+
+  /* Home Page */
+  .homeItems > div {
+    background: linear-gradient(
+      120deg,
+      rgba(255, 255, 255, 0.3),
+      rgba(255, 255, 255, 0.05)
+    );
   }
 }

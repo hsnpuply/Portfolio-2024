@@ -6,7 +6,7 @@
         </div>
 
         <nav class="navbar text-gray-500">
-            <ul class=" text-lg  navbarList w-full fixed  gap-6 left-0 top-0 flex items-center flex-col justify-center bg-[#0f0f0f] "
+            <ul class=" text-lg  navbarList w-full fixed py-8x   gap-6 left-0 top-0 flex items-center flex-col justify-center bg-[#0f0f0f] "
                 :class="isActiveMenu ? 'translate-y-17    ' : ''">
                 <li><a href="" class="text-white">Home</a></li>
                 <li><a href="" class="hover:text-white">About</a></li>
