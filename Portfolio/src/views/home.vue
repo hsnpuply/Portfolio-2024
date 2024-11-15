@@ -36,7 +36,7 @@
 
 
                 <div
-                    class="infoAboutMe   flex flex-col flex-wrap gap-4  w-full relative overflow-hidden  group cursor-pointer ">
+                    class="infoAboutMe   flex flex-col flex-wrap gap-4  w-full relative overflow-hidden   cursor-pointer ">
 
                     <div class="marqueAboutMe rounded-xl text-[#0f0f0f] text-white  ">
                         <marquee behavior="fast" direction="right">We prioritize the user experience and strive to
@@ -45,7 +45,7 @@
 
                     <div class="myResume gap-4  flex items-center justify-center flex-wrap  ">
                         <div
-                            class="moreAboutMe  rounded-xl py-10 pl-6 gap-8  w-full flex relative items-center flex-col justify-center ">
+                            class="moreAboutMe  rounded-xl py-10 pl-6 gap-8  w-full flex relative items-center flex-col justify-center group">
                             <img decoding="async"
                                 src="https://wpriverthemes.com/gridx/wp-content/themes/gridx/assets/images/bg1.png"
                                 alt="BG"
@@ -71,12 +71,12 @@
 
 
                         <div
-                            class="myProjects rounded-xl py-10 pl-6 gap-8  w-full flex relative items-center flex-col justify-center ">
+                            class="myProjects rounded-xl py-10 pl-6 gap-8  w-full flex relative items-center flex-col justify-center group">
                             <div class="projectsMockup">
                                 <img src="https://wpriverthemes.com/gridx/wp-content/uploads/2023/04/my-works.png"
                                     alt="">
                             </div>
-                            <div class="infoProjects w-full flex  items-start flex-col">
+                            <div class="infoProjects w-full flex  items-start flex-col ">
                                 <h5 class="uppercase text-md opacity-70 text-[#BCBCBC]">ShowCase</h5>
                                 <h1 class="text-3xl mt-3 text-white font-bold ">Projects</h1>
                                 <div class="star">
