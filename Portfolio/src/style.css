@@ -40,10 +40,10 @@
 
   /* Home Page */
   .homeItems > div {
-    background: linear-gradient(
+    /* background: linear-gradient(
       120deg,
       rgba(255, 255, 255, 0.3),
       rgba(255, 255, 255, 0.05)
-    );
+    ); */
   }
 }
