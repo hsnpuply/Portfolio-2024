@@ -1,5 +1,5 @@
 <template>
-    <header class="px-4 py-5  flex items-center justify-between mx-auto container  bg-[#0f0f0f]">
+    <header class="px-4 py-5  flex items-center justify-between  container">
 
         <div class="logo z-50">
             <img src="https://wpriverthemes.com/gridx/wp-content/themes/gridx/assets/images/logo.svg" alt="">
@@ -43,8 +43,6 @@ const isActiveMenu = ref(false)
 
 const activeMenu = () => {
     isActiveMenu.value = !isActiveMenu.value
-    // alert(isActiveMenu.value);
-
 }
 
 </script>

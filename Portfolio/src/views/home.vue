@@ -6,15 +6,15 @@
             <div class="homeItems flex flex-wrap     items-start justify-center gap-8  ">
 
 
-                <div class="profile   rounded-xl  w-full relative overflow-hidden  group cursor-pointer">
+                <div class="profile   rounded-xl  w-full  relative overflow-hidden  group cursor-pointer">
                     <img decoding="async"
                         src="https://wpriverthemes.com/gridx/wp-content/themes/gridx/assets/images/bg1.png" alt="BG"
                         class="bg-img object-cover absolute -z-10 w-full opacity-10 h-full  rounded-xl ">
 
-                    <div class="profileItems flex flex-col items-center py-10 pl-6  gap-8">
+                    <div class="profileItems flex flex-col md:flex-row items-center py-10 pl-6 md:px-10  gap-8">
 
                         <div
-                            class="profilePic w-2/3 flex items-center justify-center bg-violet-700 rounded-tl-[3.3rem] !rounded-br-3xl rounded-lg   shadow-sm shadow-gray-200/10">
+                            class="profilePic w-2/3 flex  items-center justify-center bg-violet-700 rounded-tl-[3.3rem] !rounded-br-3xl rounded-lg   shadow-sm shadow-gray-200/10">
                             <img src="https://wpriverthemes.com/gridx/wp-content/uploads/2023/04/me.png" alt=""
                                 class="w-56">
                         </div>
