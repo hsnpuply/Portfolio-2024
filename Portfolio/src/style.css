@@ -11,9 +11,11 @@
 }
 
 @layer components {
-  .navbarList {
-    @apply duration-700;
+  .navBarTransformation {
     transform: translate3d(0px, -300px, 0px) scale(1, 0.5);
+  }
+  .navbarList {
+    @apply duration-700 navBarTransformation md:transform-none;
   }
 
   .navbarList ul li {
